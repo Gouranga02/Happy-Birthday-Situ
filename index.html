@@ -148,23 +148,48 @@
 						</section>
 					</section>
 
-				<!-- Video Section -->
-				<section id="video-section" class="wrapper style3 special" sty>
-					<div class="inner" style="display: flex; align-items: center;">
-						<div class="video-container" style="flex: 1;">
-							<video controls style="width: 50%; height: auto;">
-								<source src="fotos/videoplayback.mp4" type="video/mp4">
-								Your browser does not support the video tag.
-							</video>
-						</div>
-						<div class="video-text" style="flex: 1; padding-left: 20px;">
-							<header class="major">
-								<h2>🎂🎉🎂🍰🧁🍨🍫🍬🍭<br>Wishing You a Many Many Happy Returns Of the day. <br>🎉🎂🎂🎂🍰🥰😘🎉🎉🎂🍰</h2>
-								<p>A special video just for you!</p>
-							</header>
-						</div>
-					</div>
-				</section>
+			<!-- Video Section -->
+<section id="video-section" class="wrapper style3 special" style="background-color: rgba(17, 16, 16, 0.25);">
+    <div class="inner" style="display: flex; align-items: center;">
+        <div class="video-container" style="flex: 1;">
+            <video controls style="width: 100%; height: auto;">
+                <source src="fotos/lv_0_20230724212619.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+        <div class="video-text" style="flex: 1; padding-left: 20px;">
+            <header class="major">
+                <h2>🎂🎉🎂🍰🧁🍨🍫🍬🍭<br>Wishing You a Many Many Happy Returns Of the day. <br>🎉🎂🎂🎂🍰🥰😘🎉🎉🎂🍰</h2>
+                <p>A special video just for you!</p>
+            </header>
+        </div>
+    </div>
+</section>
+
+<style>
+    @media (max-width: 768px) {
+        #video-section .inner {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        #video-section .video-container {
+            order: 1;
+        }
+
+        #video-section .video-text {
+            order: 2;
+            padding-left: 0;
+            margin-top: 20px;
+        }
+
+        #video-section video {
+            width: 100%;
+        }
+    }
+</style>
+
 
 
 
